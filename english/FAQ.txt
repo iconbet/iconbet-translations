@@ -1,0 +1,218 @@
+Introduction
+
+
+What is ICONbet?
+
+ICONbet is a decentralized autonomous organization (DAO) that
+hosts gaming DApps. ICONbet strives to utilize blockchain to
+provide transparency, profit redistribution, and provably fair
+gaming with its platform.
+
+
+How are rewards split?
+
+100% of ICONbet platform games go to the reward pool. 80% of third
+party games go to the reward pool and 20% to partner developers.
+The reward pool is then distributed as follows: 80% to staked TAP
+holders, 10% to wager war and 10% to next day’s reward pool.
+
+
+What is Auto-Bet?
+
+Auto-bet allows users to place the same bet over and over again
+without clicking any buttons. It is commonly used to “mine” as
+many TAP tokens as possible. Please watch this fun instructional
+video for DAOlette to see how auto-bet is used. Auto-bet is shown
+starting around 50 seconds ("https://www.youtube.com/watch?v=opejb6K7bIw")
+
+
+How do I connect with the ICONbet community?
+
+Telegram Community: https://t.me/ICONbet_official              
+Twitter:"https://twitter.com/ICONbetOfficial" @ICONbetOfficial
+
+
+
+TAP tokens
+
+
+What is a TAP token?
+
+TAP is an IRC2 token built on the ICON blockchain. There will be a
+total of 625,000,000 TAP tokens minted. TAP represents ownership
+in the ICONbet DAO. It can be used for voting on ICONbet decisions
+and they earn rewards from DAO earnings.
+
+
+Where can I get TAP tokens?
+
+The only way to earn TAP tokens is by playing on the ICONbet
+platform. The daily distribution of TAP tokens will be
+proportional to each player&rsquo;s daily betting volume (in
+ICX)&mdash;win or lose, the more you bet, the more TAP tokens you
+will own. A total of 1,000,000 TAP tokens will be distributed
+daily for the first 250 days. Starting on day 251, TAP mining will
+reduced by 0.5% everyday until the daily release reaches 25,000
+25,000 TAP tokens per day. From day 986 onward, 25,000 TAP tokens
+will be mined each day and TAP tokens will be completely depleted
+by day 3,225. The full formula for TAP token distribution can be
+found in the Whitepaper.
+  
+
+How can I calculate dividends and TAP Token Distribution?
+
+TAP Token Payout = Today's Total TAP Distribution x (My Wagers / Total Wagers)
+
+Expected ICX Payout = 0.8 x Excess x My Staked TAP / Total Staked TAP
+
+Wager War = 10% of Current Treasury Excess will be sent to top 10 players divided like below:
+1st: 25%
+2nd: 20%
+3rd: 15%
+4th: 10%
+5th: 10%
+6th: 6%
+7th: 6%
+8th: 3%
+9th: 3%
+10th 2%
+
+
+How many TAP Tokens exist?
+
+The maximum supply of TAP tokens is 625,000,000. 20% are held by
+the founding team and 80% will be mined by players.
+
+
+
+DAOblackjack FAQ
+ 
+
+What are the rules for DAOblackjack?
+
+DAOblackjack uses fairly standard blackjack rules: 
+- 6-deck shoe
+
+- Blackjack pays 6 to 5
+
+- Insurance offered with 2 to 1 payout if Dealer shows an Ace
+
+- Player can double on first two cards if they total 9, 10, or 11
+
+- Dealer hits on soft 17
+
+- No drawing to split aces (only draws one card to each new hand)
+
+- No dealer peek for blackjack - Sorry! Not possible to do that
+with a fully transparent blockchain dApp.
+
+- Split to two hands
+- No double after split
+
+
+Can I play more than one hand at a time?
+
+The game only supports one player at the table against the dealer,
+but you can open multiple games. Three games seems to be a good
+number, and you can have up to five.
+
+
+I see a list of ‘Active Games’ What is that?
+
+If you can’t complete a game for any reason it will appear under
+Active Games and you can resume play by clicking on it. It will
+open in a new browser tab.
+
+
+I don’t know much about Blackjack. How can I start?
+
+One great place to start learning about Blackjack, and many other
+casino games is Wizard of Odds ("https://wizardofodds.com/games/blackjack/")
+
+
+DAOdice FAQ
+
+
+What is DAOdice?
+
+DAOdice is a game involving two ten-sided dice. One die has
+numbers 0 through 9, while the other die has numbers 0, 10, 20…90,
+allowing for players to roll any number between 0 and 99. Players
+adjust the range on which they would like to bet, then the odds of
+winning and multiplier adjust accordingly. Users also have the
+option to bet on side-bets: One ICON Symbol, Two ICON Symbols, and
+Matching Digits.
+
+
+How do I play DICE?
+
+Please watch this fun instructional video:  
+https://www.youtube.com/watch?v=7sTEvyBs7fQ
+
+
+Can I bet on more than one side bet?
+
+This is not currently available.
+
+
+
+DAOlette FAQ
+
+
+What is DAOlette?
+
+DAOlette is the first game built on the ICONbet platform. It is a
+Roulette-style game. This game allows players to place bets on a
+number, set of numbers, color, odd/even, or high/low.
+
+
+What is “Slider Bet”?
+
+ICONbet’s unique “Slider Bet” feature allows the player to also
+place a bet on a set of numbers higher or lower than a selected
+value. This is a unique feature that is not available in typical
+brick-and-mortar casinos.
+
+
+Can I bet on the bomb, or include the bomb in a set of numbers?
+
+DAOlette does not allow placing bets on the bomb, or include the
+bomb in a set of numbers to be bet on.
+
+
+How do I play DAOlette?
+
+Please watch this fun instructional video: https://www.youtube.com/watch?v=opejb6K7bIw
+
+
+
+Provably fair gaming
+
+
+How is the game randomized?
+
+When the game is initiated, the game smart contract generates a SHA3-256 hash
+that determines the wheel’s angular displacement. The hashing seed
+is a mix of the transaction hash, the block timestamp (source of
+unpredictability), and an optional user-provided ‘lucky phrase’.
+For a more detailed explanation, please refer to the Technical
+Details section of the Whitepaper.
+
+
+How do the transactions occur?
+
+All ICONbet transactions are triggered by players or by four open
+sourced smart contracts. Each contract supports a key function of
+the ICONbet platform and enables it to be a DAO: TAP tokens and
+holder addresses, TAP token rewards distribution, management of
+the house treasury, and the ICX dividends distribution.
+
+  
+I want to see the codes, where can I find ICONbet Smart Contracts?
+
+Please visit https://tracker.icon.foundation"
+and search for the below smart contracts:
+TAP Token Contract: cxc0b5b52c9f8b4251a47e91dda3bd61e5512cd782
+Rewards Contract: cx3b9955d507ace8ac27080ed64948e89783a62ab1
+Dividends Contract: cx75e584ffe40cf361b3daa00fa6593198d47505d5
+Game Contract: cx1b97c1abfd001d5cd0b5a3f93f22cccfea77e34e
