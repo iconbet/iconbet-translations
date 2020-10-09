@@ -154,6 +154,6 @@ export default {
     "app.container.daodice.lost": "Lost.",
     "app.container.gettingStarted.header": "Getting Started",
     "app.container.gettingStarted.dontShow": "Don't show this to me again",
-    "app.container.gettingStarted.note":"Note: You can find this under the help menu for future reference." 
+    "app.container.gettingStarted.note": "Note: You can find this under the help menu for future reference."
   }
 };
